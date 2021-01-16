@@ -42,7 +42,7 @@ def cetak(b):
 def jalan(z):
 	for e in z + '\n':
 		sys.stdout.write(e)
-		sys.stdout.flush()
+		sys.stdout.flush(
 		time.sleep(00000.1)
 
 
@@ -51,7 +51,7 @@ logo = """ -----------------------------•◈•
 (  __)\\ ____--------------_------------•◈•
 |__(~)    •||•THE - AAHIL -OFFICAL------•◈•
 |__\~~) •||•RANA - RAJPUT---------------•◈•
-|__(-----\  •◈•------BLACK-TIGER--------•◈•
+|__(-----\  •◈•------BLACK-71-----
 |__~~~\ •◈•-----█-------⑦-------█------•◈•
 |__~~~\ •◈•-----█-------⑧-------█------•◈•
 |__~~~\ •◈•-----█-------⑥-------█------•◈•
@@ -66,7 +66,6 @@ def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
 		print("\r\033[1;96m[●] \x1b[1;93mSedang masuk \x1b[1;97m"+o),;sys.stdout.flush();time.sleep(1)
-
 
 back = 0
 berhasil = []
